@@ -48,6 +48,10 @@ $(document).ready(() => {
 
 	$('.menu-item-right-name').click(function() {
 		$.scrollTo($('#aboutMe'), 2000);
+	});
+
+	$('.xiaohui').click(function() {
+		$.scrollTo('home', 2000);
 	})
 
 	jQuery.scrollTo = (target, time) => {
